@@ -11,8 +11,8 @@ const products = [
   {
     id: 1,
     name: "Golden Elegance Serum",
-    price: "$299",
-    originalPrice: "$399",
+    price: "₹24,999",
+    originalPrice: "₹32,999",
     rating: 4.9,
     reviews: 128,
     image: product1,
@@ -21,8 +21,8 @@ const products = [
   {
     id: 2,
     name: "Luxury Timepiece",
-    price: "$1,299",
-    originalPrice: "$1,599",
+    price: "₹1,08,999",
+    originalPrice: "₹1,32,999",
     rating: 4.8,
     reviews: 89,
     image: product2,
@@ -31,8 +31,8 @@ const products = [
   {
     id: 3,
     name: "Premium Leather Bag",
-    price: "$899",
-    originalPrice: "$1,199",
+    price: "₹74,999",
+    originalPrice: "₹99,999",
     rating: 4.9,
     reviews: 156,
     image: product3,
