@@ -61,7 +61,29 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				luxury: {
+					gold: 'hsl(var(--luxury-gold))',
+					'gold-light': 'hsl(var(--luxury-gold-light))',
+					dark: 'hsl(var(--luxury-dark))',
+					gray: 'hsl(var(--luxury-gray))',
+					'gray-light': 'hsl(var(--luxury-gray-light))'
 				}
+			},
+			backgroundImage: {
+				'gradient-luxury': 'var(--gradient-luxury)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-light': 'var(--gradient-light)'
+			},
+			boxShadow: {
+				luxury: 'var(--shadow-luxury)',
+				elegant: 'var(--shadow-elegant)',
+				premium: 'var(--shadow-premium)'
+			},
+			transitionTimingFunction: {
+				luxury: 'cubic-bezier(0.165, 0.84, 0.44, 1)',
+				smooth: 'cubic-bezier(0.4, 0, 0.2, 1)',
+				bounce: 'cubic-bezier(0.68, -0.55, 0.265, 1.55)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +106,64 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(20px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'fade-in-up': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateY(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
+				},
+				'scale-in': {
+					'0%': {
+						opacity: '0',
+						transform: 'scale(0.95)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'scale(1)'
+					}
+				},
+				'slide-in-right': {
+					'0%': {
+						opacity: '0',
+						transform: 'translateX(30px)'
+					},
+					'100%': {
+						opacity: '1',
+						transform: 'translateX(0)'
+					}
+				},
+				'luxury-shimmer': {
+					'0%': {
+						backgroundPosition: '-200% 0'
+					},
+					'100%': {
+						backgroundPosition: '200% 0'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.6s ease-out',
+				'fade-in-up': 'fade-in-up 0.8s ease-out',
+				'scale-in': 'scale-in 0.5s ease-out',
+				'slide-in-right': 'slide-in-right 0.6s ease-out',
+				'luxury-shimmer': 'luxury-shimmer 2s ease-in-out infinite'
 			}
 		}
 	},
