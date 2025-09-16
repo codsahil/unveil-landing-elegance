@@ -1,5 +1,9 @@
 # Welcome to your Lovable project
 
+
+Vite + React + TypeScript + shadcn/ui Project
+Developed a modern web application using React (TypeScript) with Vite for optimized builds, Tailwind CSS and shadcn/ui for responsive UI, and integrated React Query, Zod, and React Hook Form for data handling and validation. Implemented animations with Framer Motion & GSAP, interactive charts with Recharts, and routing with React Router DOM, ensuring a scalable, performant, and user-friendly application architecture.
+
 #THIS IS A SCREENSHOT OF EXAMPLE OF WEBSITE
 
 ![img alt](https://github.com/codsahil/unveil-landing-elegance/blob/main/Screenshot%20ULE-1.png?raw=true)
